@@ -2,6 +2,7 @@
 Developed an end-to-end customer analytics solution using Python, MySQL, and Power BI to segment customers, measure loyalty, and deliver data-driven retention strategies for a D2C fashion brand.
 ## The Business Problem
 The Dataset: [Kaggle Link]([https://your-url.com](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset))
+
 A direct-to-consumer fashion brand sells clothing, accessories, footwear, and outerwear entirely online across the US. It has behavioral data on ~3,900 customers, runs a promotional discount program, but has never built a structured way to understand its customers beyond surface-level sales numbers.
 
 The founding team needed answers to five questions:
