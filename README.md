@@ -47,9 +47,10 @@ Cleaned the raw dataset from and engineered four composite metrics from scratch:
 **The loyalty decision:** two competing definitions were built, tested against three business criteria (revenue gap, average CHI of the "High" group, average PDI of the "High" group), and one was selected. Commercial Loyalty won: larger revenue gap ($1.28 vs $1.18), near-identical customer health (CHI 86.16 vs 86.82), and dramatically lower promotion dependency (PDI 3.42 vs 30.72). 97% of "High" Commercial Loyalty customers score High or Moderate on the Behavioural measure — strong internal consistency between two independently-built definitions.
 
 The output csv: [customer_value_analytics_cleaned.csv](./customer_value_analytics_cleaned.csv)
+
 ---
 
-### Stage 2 — SQL: Customer Segmentation & Analysis ([Customer Value Analytics.sql](./Customer Value Analytics.sql))
+### Stage 2 — SQL: Customer Segmentation & Analysis ([Customer_Value_Analytics_SQL.sql](./Customer Value Analytics.sql))
 
 Five queries built in PostgreSQL dialect, each answering one of the five business questions above. Key techniques used:
 
