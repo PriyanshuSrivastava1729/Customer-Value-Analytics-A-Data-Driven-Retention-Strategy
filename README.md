@@ -34,7 +34,7 @@ The core analytical constraint: the dataset has **no loyalty score, no churn lab
 
 ## What Was Built, in Order
 
-### Stage 1 — Python: Data Preparation & Feature Engineering (`Customer_Value_Analytics.ipynb`)
+### Stage 1 — Python: Data Preparation & Feature Engineering ([Customer_Value_Analytics.ipynb](./Customer_Value_Analytics.ipynb))
 Cleaned the raw dataset from and engineered four composite metrics from scratch:
 
 | Metric | What it measures | How it was built |
@@ -48,7 +48,7 @@ Cleaned the raw dataset from and engineered four composite metrics from scratch:
 
 ---
 
-### Stage 2 — SQL: Customer Segmentation & Analysis (`Customer_Value_Analytics.sql`)
+### Stage 2 — SQL: Customer Segmentation & Analysis ([Customer Value Analytics.sql](./Customer Value Analytics.sql))
 
 Five queries built in PostgreSQL dialect, each answering one of the five business questions above. Key techniques used:
 
@@ -60,7 +60,7 @@ Five queries built in PostgreSQL dialect, each answering one of the five busines
 
 ---
 
-### Stage 3 — Power BI: Founder Dashboard (`Customer_Value_Analytics_Dashboard.pdf`)
+### Stage 3 — Power BI: Founder Dashboard ([Customer_Value_Analytics_Dashboard.pdf](./Customer_Value_Analytics_Dashboard.pdf))
 
 A five-page dashboard designed for a non-technical founding team. All panels are driven directly from `customer_value_analytics_cleaned.csv`.
 
@@ -75,7 +75,7 @@ A five-page dashboard designed for a non-technical founding team. All panels are
 
 ---
 
-### Stage 4 — Strategy Memo: Retention Playbook (`Retention_Playbook_Strategy_Memo.docx`)
+### Stage 4 — Strategy Memo: Retention Playbook ([Retention_Playbook_Strategy_Memo.pdf](./Retention_Playbook_Strategy_Memo.pdf))
 
 A formal strategy memo addressed to the Chief Revenue Officer, structured as a management consulting deliverable. Contains:
 
