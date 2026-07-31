@@ -1,7 +1,7 @@
 # Customer-Value-Analytics-A-Data-Driven-Retention-Strategy
 Developed an end-to-end customer analytics solution using Python, MySQL, and Power BI to segment customers, measure loyalty, and deliver data-driven retention strategies for a D2C fashion brand.
 ## The Business Problem
-
+The Dataset: [Kaggle Link]([https://your-url.com](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset))
 A direct-to-consumer fashion brand sells clothing, accessories, footwear, and outerwear entirely online across the US. It has behavioral data on ~3,900 customers, runs a promotional discount program, but has never built a structured way to understand its customers beyond surface-level sales numbers.
 
 The founding team needed answers to five questions:
@@ -34,7 +34,6 @@ The core analytical constraint: the dataset has **no loyalty score, no churn lab
 ## What Was Built, in Order
 
 ### Stage 1 — Python: Data Preparation & Feature Engineering (`Customer_Value_Analytics.ipynb`)
-The Dataset: [Kaggle Link]([https://your-url.com](https://www.kaggle.com/datasets/iamsouravbanerjee/customer-shopping-trends-dataset))
 Cleaned the raw dataset from and engineered four composite metrics from scratch:
 
 | Metric | What it measures | How it was built |
@@ -71,8 +70,7 @@ A five-page dashboard designed for a non-technical founding team. All panels are
 | 3 | **Geographic Opportunity Map** | US choropleth coloured by revenue; ranked bars for lowest promo dependency (Kansas, Wisconsin, Tennessee) and highest loyalty conversion (Michigan, Hawaii, Maryland); Commercial Loyalty distribution by top-revenue states |
 | 4 | **Category Funnel** | Revenue and customer distribution by category; loyalty mix within each category; corrected average-previous-purchases figures per category |
 | 5 | **Final Executive Dashboard** | One-page summary combining the map, category donut, promo reliance bar, and customer distribution for a single-screen briefing |
-
-**Note on a data quality catch:** The Category Funnel's "Average Previous Purchases by Category" visual was plotting customer *counts* (1,737 / 1,240 / 599 / 324) rather than true per-customer averages — the figures match the Customer Distribution panel exactly, a sign the DAX measure used COUNT instead of AVERAGE. The corrected figures (25.73 / 25.23 / 24.96 / 25.20) collapse the apparent entry-point vs. retention category divide to near-zero. The strategy memo uses corrected figures throughout.
+<img width="1202" height="780" alt="Screenshot 2026-08-01 025945" src="https://github.com/user-attachments/assets/a5372f5b-8a39-410f-a262-35a82e343604" />
 
 ---
 
@@ -154,6 +152,4 @@ psql -d your_db -f Customer_Value_Analytics.sql
 
 ## Project Context
 
-Built for the **Consulting & Analytics Club, IIT Guwahati — Summer Projects '26**, problem statement: *Decoding Customer Value: A SQL-Driven Retention Strategy*.
-
-**Points of contact (per problem statement):** Achyuth · 6381774762 | Dhairya Nisar · 8928149400
+Presented at the **Consulting & Analytics Club, IIT Guwahati — Summer Projects '26**, problem statement: *Decoding Customer Value: A SQL-Driven Retention Strategy*.
