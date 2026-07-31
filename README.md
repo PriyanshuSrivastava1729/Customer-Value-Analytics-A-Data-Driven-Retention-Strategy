@@ -50,7 +50,7 @@ The output csv: [customer_value_analytics_cleaned.csv](./customer_value_analytic
 
 ---
 
-### Stage 2 — SQL: Customer Segmentation & Analysis ([Customer_Value_Analytics_SQL.sql](./Customer Value Analytics.sql))
+### Stage 2 — SQL: Customer Segmentation & Analysis ([Customer_Value_Analytics_SQL.sql](./Customer_Value_Analytics_SQL.sql))
 
 Five queries built in PostgreSQL dialect, each answering one of the five business questions above. Key techniques used:
 
