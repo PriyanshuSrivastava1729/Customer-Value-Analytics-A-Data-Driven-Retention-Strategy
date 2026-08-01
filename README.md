@@ -83,22 +83,20 @@ A formal strategy memo addressed to the Chief Revenue Officer, structured as a m
 
 #### Key Findings
 
-- **Loyalty is not about basket size.** Average order value is nearly identical across all three loyalty tiers: $60.20 (High) vs $59.73 (Moderate) vs $58.92 (Low). The entire difference is CHI (86.16 vs 68.75 vs 53.90) and PDI (3.42 vs 28.68 vs 97.16).
-- **1,053 "Bargain Hunters" (27% of the base) generate 26.9% of revenue — all discount-subsidized.** This group is two sub-segments: 246 Low-tier customers and 807 Moderate-tier customers who carry Low-tier PDI (~98) despite Moderate-tier health.
+- **Loyalty is not about basket size.** Average order value is nearly identical across all three loyalty tiers.
+- **1,053 "Bargain Hunters" (27% of the base) generate 26.9% of revenue — all discount-subsidized.** 
 - **Kansas has the lowest PDI of any state at 14.69** — roughly half the next-lowest — suggesting unusually strong organic pull worth understanding before assuming it generalises.
 
 #### Promotional Sunset Plan (two-segment, phased)
 
-**Segment A — Low Commercial Loyalty (246 customers)**  
-*Trigger:* PDI ≥ 97 + CHI < 55 on any transaction  
+**Segment A — Low Commercial Loyalty (246 customers)**    
 *Action:* Remove automatic discount eligibility; replace with free shipping on next order  
 *Timeline:* 6 weeks — 3-week pilot (50% of segment), 3-week full rollout if CHI holds  
 *Track:* Revenue retention rate (post-cut spend ÷ pre-cut spend, treatment vs control); 90-day full-price conversion  
 *Trade-off:* 6.3% of customers, 6.2% of revenue at risk — the safest move available. Real risk is abrupt cut causing negative sentiment; the free-shipping substitute is designed to absorb it.
 
 **Segment B — Moderate-tier Bargain Hunters (807 customers)**  
-*Trigger:* PDI ≥ 97 + CHI in the 68–71 range (Moderate tier health, Low tier dependency)  
-*Action:* Step down discount frequency (every second purchase instead of every purchase), then replace residual discounts with a loyalty-points accrual mechanic  
+*Action:* Step down discount frequency (every second purchase instead of every purchase), then replace residual discounts with a loyalty-points mechanic  
 *Timeline:* One full quarter, in three 4-week stages  
 *Track:* Segment-level average CHI held stable while PDI declines stage-over-stage  
 *Stop rule:* If CHI falls more than 5 points from Stage 0 baseline at any stage checkpoint, halt and revert  
