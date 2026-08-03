@@ -29,7 +29,13 @@ The core analytical constraint: the dataset has **no loyalty score, no churn lab
 ├── Project_Walkthrough_Plain_English.docx  # Plain-language walkthrough of every step
 └── README.md
 ```
+---
+## Exploratory Data Analysis(EDA)
 
+* Analysed **Purchase Amount (USD)**, **Purchase Frequency**, **Previous Purchases**, **Review Rating**, **Discount Applied**, and **Promo Code Used**.
+* Compared customer behaviour across **Age**, **Gender**, **Location**, **Category**, **Season**, and **Subscription Status**.
+* Identified key correlations driving **customer value** and **promotional dependence**.
+* Engineered **CHI**, **PDI**, and loyalty segments from EDA insights.
 ---
 
 ## What Was Built, in Order
